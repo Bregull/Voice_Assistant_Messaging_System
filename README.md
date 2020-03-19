@@ -1,4 +1,5 @@
 # Dolby_Projekt
+## Strona w trakcie tworzenia
 
 Aplikacja działająca w tle, która 'podnosi się' na konkretne hasło i umożliwia nam nagranie wiadomości głosowej.
 Wiadomość głosowa jest następnie przepuszczana przez API dlby.io w celu odszumienia/uwydatnienia głosu.
