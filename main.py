@@ -9,6 +9,12 @@ def speak(text):
     file_name = 'recording.mp3'
     tts.save(file_name)
     playsound.playsound(file_name)
+ 
+def record(r, source):
+    r.adjust_for_ambient_noise(source)
+    audio = r.listen(source)
+    with open('speech.wav', 'wb') as f:
+        f.write(audio.get_wav_data())
 
 
 def get_audio():
@@ -25,6 +31,7 @@ def get_audio():
                 if 'hey' in said:
                     print("HI")
                     playsound.playsound('im listening.mp3')
+                    record(r, source)
                     break
                 else:
                     print('error')
