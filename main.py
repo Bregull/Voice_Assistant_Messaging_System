@@ -11,10 +11,16 @@ def speak(text):
     playsound.playsound(file_name)
  
 def record(r, source):
-    r.adjust_for_ambient_noise(source)
     audio = r.listen(source)
     with open('speech.wav', 'wb') as f:
         f.write(audio.get_wav_data())
+
+def to_text(r):
+    demo = sr.AudioFile('speech.wav')
+    with demo as source:
+        r.adjust_for_ambient_noise(source)
+        audio = r.record(source)
+        print(r.recognize_google(audio))
 
 def get_audio():
     r = sr.Recognizer()
@@ -22,6 +28,7 @@ def get_audio():
     while 1:
         print('listening')
         with sr.Microphone() as source:
+            r.adjust_for_ambient_noise(source, duration=0.5)
             audio = r.listen(source)
             said = ''
 

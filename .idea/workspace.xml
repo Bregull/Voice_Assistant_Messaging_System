@@ -4,6 +4,7 @@
     <list default="true" id="27d07012-821e-478c-80d2-deb0f2e7681a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/speech.wav" beforeDir="false" afterPath="$PROJECT_DIR$/speech.wav" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -98,6 +99,8 @@
       <workItem from="1586291987396" duration="15000" />
       <workItem from="1586292477776" duration="760000" />
       <workItem from="1586329948674" duration="287000" />
+      <workItem from="1586332322150" duration="336000" />
+      <workItem from="1586346567504" duration="1819000" />
     </task>
     <servers />
   </component>
@@ -113,26 +116,27 @@
     </state>
     <state x="209" y="124" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1586293158534" />
     <state x="-1506" y="175" width="1092" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585306723260" />
-    <state x="-1180" y="283" key="FileChooserDialogImpl" timestamp="1585306722008">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="493" y="218" key="FileChooserDialogImpl" timestamp="1586332428232">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="493" y="218" key="FileChooserDialogImpl/0.0.1280.800@0.0.1280.800" timestamp="1586332428232" />
     <state x="-1180" y="283" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585306722008" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1586330328953">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1586384111800">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586330328953" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1586330328952">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586384111800" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1586384111799">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586330328952" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1586330328951">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586384111799" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1586384111799">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586330328951" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1586330328952">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586384111799" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1586384111799">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586330328952" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586384111799" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1586293240348">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -149,10 +153,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1586293240348" />
-    <state x="261" y="78" key="SettingsEditor" timestamp="1586293151485">
+    <state x="261" y="78" key="SettingsEditor" timestamp="1586335317425">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="261" y="78" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586293151485" />
+    <state x="261" y="78" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586335317425" />
     <state x="-1459" y="162" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585306658416" />
     <state x="525" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1585841826320">
       <screen x="0" y="0" width="1536" height="824" />
@@ -165,6 +169,6 @@
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585842666123" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$main.coverage" NAME="main Coverage Results" MODIFIED="1586330035545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$main.coverage" NAME="main Coverage Results" MODIFIED="1586347611851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
