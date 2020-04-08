@@ -16,13 +16,6 @@ def record(r, source):
     with open('speech.wav', 'wb') as f:
         f.write(audio.get_wav_data())
 
-def record(r, source):
-    r.adjust_for_ambient_noise(source)
-    audio = r.listen(source)
-    with open('speech.wav', 'wb') as f:
-        f.write(audio.get_wav_data())
-
-
 def get_audio():
     r = sr.Recognizer()
 
@@ -36,11 +29,7 @@ def get_audio():
                 said = r.recognize_google(audio)
                 if 'hey' in said:
                     print("HI")
-<<<<<<< HEAD
                     playsound.playsound('im_listening.mp3')
-=======
-                    playsound.playsound('im listening.mp3')
->>>>>>> 8fcda1d0dea1f093ee451208d6fdbaa2432d5c77
                     record(r, source)
                     break
                 else:
