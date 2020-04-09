@@ -18,9 +18,12 @@ def record(r, source):
 def to_text(r):
     demo = sr.AudioFile('speech.wav')
     with demo as source:
-        r.adjust_for_ambient_noise(source)
+        r.adjust_for_ambient_noise(source, offset=0.5)
         audio = r.record(source)
-        print(r.recognize_google(audio))
+        f = open('speech_text.txt', "w", encoding="utf-8")
+        text = r.recognize_google(audio)
+        f.write(text)
+        f.close()
 
 def get_audio():
     r = sr.Recognizer()
@@ -38,6 +41,7 @@ def get_audio():
                     print("HI")
                     playsound.playsound('im_listening.mp3')
                     record(r, source)
+                    to_text(r)
                     break
                 else:
                     print('error')
