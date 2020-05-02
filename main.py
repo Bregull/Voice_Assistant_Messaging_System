@@ -1,40 +1,11 @@
 from gtts import gTTS
 import playsound
 import speech_recognition as sr
+import download_API
+import enhance_API
+import upload_API
 import pyaudio
 import requests
-
-def dlby_io():
-    headers = {"x-api-key": "b6tGyxR4AuO0CWefbrMyBwJ0fBBcYS81"}
-
-    data = '{"url": "dlb://in/speech.wav"}'
-
-    response = requests.post('https://api.dolby.com/media/input', headers=headers, data=data)
-    print(response)
-    print(response.json())
-
-    url = response.json()['url']
-    response = requests.put(url, headers=headers, data='./speech.wav')
-    print(response)
-
-    data = '{\n          "input": "dlb://speech.wav",\n          "output": "dlb://output.wav"\n          }'
-
-    response = requests.post('https://api.dolby.com/media/enhance', headers=headers, data=data)
-    print(response)
-    print(response.json())
-
-    data = response.json()
-
-    response = requests.get('https://api.dolby.com/media/enhance', headers=headers, params=data)
-    print(response)
-
-    data = '{"url": "dlb://output.wav"}'
-
-    response = requests.get('https://api.dolby.com/media/output?url=dlb://output.wav', headers=headers, stream=True)
-
-    print(response)
-    print(response.json())
-
 
 def speak(text):
     tts = gTTS(text=text, lang='en')
@@ -83,4 +54,3 @@ def get_audio():
 
 
 #get_audio()
-dlby_io()
