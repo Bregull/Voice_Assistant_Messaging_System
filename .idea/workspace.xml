@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -211,6 +211,9 @@
       <workItem from="1587054541241" duration="2306000" />
       <workItem from="1588105633269" duration="6311000" />
       <workItem from="1588417605881" duration="455000" />
+      <workItem from="1588614602895" duration="602000" />
+      <workItem from="1588615315180" duration="723000" />
+      <workItem from="1588616181490" duration="634000" />
     </task>
     <task id="LOCAL-00001" summary="dlby.io API is working">
       <created>1588415595798</created>
@@ -287,11 +290,12 @@
     <state x="261" y="78" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586885022968" />
     <state x="-1459" y="162" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585306658416" />
     <state x="313" y="80" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1588417743951" />
-    <state x="525" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1588417620425">
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1588616181252">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1264" y="344" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585428462745" />
     <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1588417620425" />
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588616181252" />
     <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588415549150">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
