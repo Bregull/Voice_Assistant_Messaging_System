@@ -1,7 +1,9 @@
 from gtts import gTTS
 import playsound
 import speech_recognition as sr
-import dlby_io_API
+import download_API
+import enhance_API
+import upload_API
 import pyaudio
 import requests
 
@@ -52,10 +54,3 @@ def get_audio():
 
 
 #get_audio()
-api_key = 'b6tGyxR4AuO0CWefbrMyBwJ0fBBcYS81'
-local_path = 'police_car.wav'
-dolby_in_url = 'dlb://input.wav'
-dolby_out_url = 'dlb://output.wav'
-new_file_name = 'new_police_car.wav'
-
-dlby_io_API(local_path, dolby_in_url, dolby_out_url, api_key, new_file_name)
