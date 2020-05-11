@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<p id="test"></p>
+    <form>
+        <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Message" aria-label="Message" id="msg">
+        <div class="input-group-append">
+            <button id="sendBtn" name="sendBtn" class="btn btn-outline-secondary" type="button" >Send</button>
+        </div>
+    </div>
+    </form>
+{% endblock %}
+
+
+<!---
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $('#testButton').on("click", function(){
+         $.getJSON('/run',
+            function (data) {
+            console.log('butt')
+        });
+        return false;
+    });
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $('#sendBtn').on("click", function(){
+            $.getJSON('/run',
+                function (data) {
+                console.log('butt')
+             });
+            return false;
+        });
+    </script>
+-->
+
+<!--     <form>
+        <button name="testButton" id="testButton" type="button" class="btn btn-primary btn-lg">LARGE BUTTON</button>
+    </form>
+-->

@@ -1,22 +1,21 @@
 from gtts import gTTS
 import playsound
 import speech_recognition as sr
-import download_API
-import enhance_API
-import upload_API
-import pyaudio
-import requests
+import dlby_io_API
+
 
 def speak(text):
     tts = gTTS(text=text, lang='en')
     file_name = 'recording.mp3'
     tts.save(file_name)
     playsound.playsound(file_name)
- 
+
+
 def record(r, source):
     audio = r.listen(source)
     with open('speech.wav', 'wb') as f:
         f.write(audio.get_wav_data())
+
 
 def to_text(r):
     demo = sr.AudioFile('speech.wav')
@@ -27,6 +26,7 @@ def to_text(r):
         text = r.recognize_google(audio)
         f.write(text)
         f.close()
+
 
 def get_audio():
     r = sr.Recognizer()
@@ -53,4 +53,5 @@ def get_audio():
                 print(e)
 
 
-#get_audio()
+get_audio()
+#dlby_io_API()
