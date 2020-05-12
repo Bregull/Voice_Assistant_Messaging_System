@@ -166,9 +166,11 @@ def dlby_API(local_path, dolby_in_url, dolby_out_url, api_key, new_file_name):
 
 # The api_key from your account, local_path to your file, a dolby_url of your choosing
 api_key = 'b6tGyxR4AuO0CWefbrMyBwJ0fBBcYS81'
-local_path = 'speech.wav'
+local_path = '../../speech.wav'
 dolby_in_url = 'dlb://input.wav'
 dolby_out_url = 'dlb://output.wav'
 new_file_name = 'new_speech.wav'
 
-dlby_API(local_path, dolby_in_url, dolby_out_url, api_key, new_file_name)
+
+def run_dlby_io():
+    dlby_API(local_path, dolby_in_url, dolby_out_url, api_key, new_file_name)
