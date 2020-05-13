@@ -2,6 +2,9 @@ from gtts import gTTS
 import playsound
 import speech_recognition as sr
 
+r = sr.Recognizer()
+mic = sr.Microphone()
+
 
 def speak(text):
     tts = gTTS(text=text, lang='en')
@@ -11,8 +14,9 @@ def speak(text):
 
 
 def record(r, source):
+    r.adjust_for_ambient_noise(source)
     audio = r.listen(source)
-    with open('../../speech.wav', 'wb') as f:
+    with open('speech1.wav', 'wb') as f:
         f.write(audio.get_wav_data())
 
 
@@ -26,27 +30,37 @@ def to_text(r):
         f.write(text)
         f.close()
 
+def activate(phrase = 'welcome'):
+    try:
+        with mic as source:
+            r.adjust_for_ambient_noise(source)
+            audio = r.listen(source)
+            transcript = r.recognize_google(audio)
+            if transcript.lower() == phrase:
+                return True
+            else:
+                return False
+    except:
+        pass
+
 
 def get_audio():
-    r = sr.Recognizer()
+    if activate() == True:
+        try:
+            with mic as source:
+                print("HI")
+                playsound.playsound('listening.mp3')
+                record(r, source)
+                # to_text(r)
+        except Exception as e:
+            print(e)
+    else:
+        pass
 
-    while 1:
-        print('listening')
-        with sr.Microphone() as source:
-            r.adjust_for_ambient_noise(source, duration=0.5)
-            audio = r.listen(source)
-            said = ''
 
-            try:
-                said = r.recognize_google(audio)
-                if 'welcome' in said:
-                    print("HI")
-                    playsound.playsound('../../listening.mp3')
-                    record(r, source)
-                    #to_text(r)
-                    break
-                else:
-                    print('error')
-                    continue
-            except Exception as e:
-                print(e)
+
+while True:
+    get_audio()
+
+
+
