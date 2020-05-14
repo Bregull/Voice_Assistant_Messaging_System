@@ -153,8 +153,9 @@ def download(dolby_out_url, api_url, api_key, new_file_name):
 
 
 # This is the function which includes every step
-def dlby_API(local_path, dolby_in_url, dolby_out_url, api_key, new_file_name):
+def dlby_API(local_path, dolby_in_url, dolby_out_url, new_file_name):
     #upload
+    api_key = 'b6tGyxR4AuO0CWefbrMyBwJ0fBBcYS81'
     upload_url = get_upload_url(local_path, dolby_in_url, api_url, api_key)
     upload_file(local_path, upload_url)
     print("You can now use {} as your input for Media APIs.".format(dolby_in_url))
@@ -165,12 +166,13 @@ def dlby_API(local_path, dolby_in_url, dolby_out_url, api_key, new_file_name):
     download(dolby_out_url,api_url, api_key, new_file_name)
 
 # The api_key from your account, local_path to your file, a dolby_url of your choosing
-api_key = 'b6tGyxR4AuO0CWefbrMyBwJ0fBBcYS81'
+'''
 local_path = '../../speech.wav'
 dolby_in_url = 'dlb://input.wav'
 dolby_out_url = 'dlb://output.wav'
 new_file_name = 'new_speech.wav'
+'''
 
 
 def run_dlby_io():
-    dlby_API(local_path, dolby_in_url, dolby_out_url, api_key, new_file_name)
+    dlby_API()
