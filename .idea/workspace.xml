@@ -55,7 +55,7 @@
       <recent name="C:\Users\GÓŁA\Documents\GitHub\Voice_Assistant_Messaging_System\Web_Backend\Flask_current\application\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.multiChatClient">
+  <component name="RunManager" selected="Python.client">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Voice_Assistant_Messaging_System" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,6 +70,38 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Voice_Assistant_Messaging_System" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="C:\Users\GÓŁA\Documents\GitHub\Voice_Assistant_Messaging_System\client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -110,71 +142,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multiChatClient" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Voice_Assistant_Messaging_System" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multiChatClient.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="multiChatServer" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Voice_Assistant_Messaging_System" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <EXTENSION ID="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </EXTENSION>
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multiChatServer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="record_voice_on_command" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="prepare_os_files" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Voice_Assistant_Messaging_System" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,7 +165,39 @@
           <ENTRY IS_ENABLED="true" PARSER="runconfig" />
         </ENTRIES>
       </EXTENSION>
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/record_voice_on_command.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\GÓŁA\Documents\GitHub\Voice_Assistant_Messaging_System\prepare_os_files.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Voice_Assistant_Messaging_System" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="C:\Users\GÓŁA\Documents\GitHub\Voice_Assistant_Messaging_System\server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,10 +207,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.multiChatServer" />
-      <item itemvalue="Python.multiChatClient" />
-      <item itemvalue="Python.record_voice_on_command" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.server" />
+      <item itemvalue="Python.client" />
+      <item itemvalue="Python.prepare_os_files" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -264,7 +264,9 @@
       <workItem from="1589315902469" duration="6061000" />
       <workItem from="1589399044577" duration="6318000" />
       <workItem from="1589531168180" duration="5657000" />
-      <workItem from="1589536877413" duration="6420000" />
+      <workItem from="1589536877413" duration="7250000" />
+      <workItem from="1589547513502" duration="1750000" />
+      <workItem from="1589549318556" duration="153000" />
     </task>
     <task id="LOCAL-00001" summary="dlby.io API is working">
       <created>1588415595798</created>
@@ -320,38 +322,38 @@
     <state x="493" y="218" key="FileChooserDialogImpl/0.0.1280.800@0.0.1280.800" timestamp="1586332428232" />
     <state x="-1180" y="283" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589531983734" />
     <state x="592" y="225" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589293227650" />
-    <state width="1493" height="158" key="GridCell.Tab.0.bottom" timestamp="1589543886455">
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom" timestamp="1589549474544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.0.1920.1200@0.0.1280.800" timestamp="1589440318861" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1589409165302" />
     <state width="1877" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589541626325" />
     <state width="746" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589301029249" />
-    <state width="1493" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589543886455" />
-    <state width="1493" height="158" key="GridCell.Tab.0.center" timestamp="1589543886455">
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589549474544" />
+    <state width="1493" height="158" key="GridCell.Tab.0.center" timestamp="1589549474544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800/1280.0.1920.1200@0.0.1280.800" timestamp="1589440318860" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1589409165300" />
     <state width="1877" height="162" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589541626325" />
     <state width="746" height="281" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589301029249" />
-    <state width="1493" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589543886455" />
-    <state width="1493" height="158" key="GridCell.Tab.0.left" timestamp="1589543886454">
+    <state width="1493" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589549474544" />
+    <state width="1493" height="158" key="GridCell.Tab.0.left" timestamp="1589549474543">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800/1280.0.1920.1200@0.0.1280.800" timestamp="1589440318859" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1589409165299" />
     <state width="1877" height="162" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589541626325" />
     <state width="746" height="281" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589301029249" />
-    <state width="1493" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589543886454" />
-    <state width="1493" height="158" key="GridCell.Tab.0.right" timestamp="1589543886455">
+    <state width="1493" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589549474543" />
+    <state width="1493" height="158" key="GridCell.Tab.0.right" timestamp="1589549474544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800/1280.0.1920.1200@0.0.1280.800" timestamp="1589440318861" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1589409165301" />
     <state width="1877" height="162" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589541626325" />
     <state width="746" height="281" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589301029249" />
-    <state width="1493" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589543886455" />
+    <state width="1493" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589549474544" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1588143179678">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -375,12 +377,12 @@
     <state x="-1459" y="162" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589531209319" />
     <state x="313" y="80" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1588417743951" />
     <state x="313" y="80" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588662621028" />
-    <state x="-1264" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589536877549">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1589549317865">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1264" y="344" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589536877549" />
     <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589301087385" />
-    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589289917105" />
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589549317865" />
     <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589397546165">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -392,6 +394,7 @@
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585842666123" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$client.coverage" NAME="client Coverage Results" MODIFIED="1589549446978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$main.coverage" NAME="main Coverage Results" MODIFIED="1589301091734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web_Backend/Flask_current" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$multiChatClient.coverage" NAME="multiChatClient Coverage Results" MODIFIED="1589543886411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$record_voice_on_command__1_.coverage" NAME="record_voice_on_command (1) Coverage Results" MODIFIED="1589409165285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -399,6 +402,7 @@
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$upload_API.coverage" NAME="upload_API Coverage Results" MODIFIED="1588415068478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$dlby_io_API.coverage" NAME="dlby_io_API Coverage Results" MODIFIED="1588662184359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$record_voice_on_command.coverage" NAME="record_voice_on_command Coverage Results" MODIFIED="1589531582168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$server.coverage" NAME="server Coverage Results" MODIFIED="1589549445847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$dlby_API.coverage" NAME="enhance_API Coverage Results" MODIFIED="1588415346224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$cURL.coverage" NAME="download_API Coverage Results" MODIFIED="1588415669840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$multiChatServer.coverage" NAME="multiChatServer Coverage Results" MODIFIED="1589543882365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
