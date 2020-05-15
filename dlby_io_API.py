@@ -3,7 +3,6 @@ import requests
 import time
 import json
 
-
 api_url = 'https://api.dolby.com'
 
 
@@ -36,6 +35,7 @@ def get_upload_url(local_path, dolby_in_url, api_url, api_key):
 
     response.raise_for_status()
 
+
 def upload_file(local_path, upload_url):
     """
     upload_file is the actual file upload, reading a local path
@@ -49,8 +49,10 @@ def upload_file(local_path, upload_url):
             print(e)
             raise
 
+
 # A limit on how long to poll for results
 MAX_WAIT = 50
+
 
 def job_start(api_url, api_key, dolby_in_url, dolby_out_url):
     """
@@ -63,12 +65,12 @@ def job_start(api_url, api_key, dolby_in_url, dolby_out_url):
         'x-apikey': api_key,
         'Content-Type': 'application/json',
         'Accept': 'application/json'
-        }
+    }
 
     body = {
-            'input' : dolby_in_url,
-            'output': dolby_out_url,
-        }
+        'input': dolby_in_url,
+        'output': dolby_out_url,
+    }
 
     response = requests.post(api_url, json=body, headers=headers)
     data = response.json()
@@ -94,11 +96,11 @@ def job_result(api_url, api_key, job_id, wait=0, noretry=False):
         'x-apikey': api_key,
         'Content-Type': 'application/json',
         'Accept': 'application/json'
-        }
+    }
 
     params = {
-        'job_id' : job_id,
-        }
+        'job_id': job_id,
+    }
 
     response = requests.get(api_url, params=params, headers=headers)
 
@@ -125,6 +127,7 @@ def job_result(api_url, api_key, job_id, wait=0, noretry=False):
 
     response.raise_for_status()
 
+
 def noise(dolby_in_url, dolby_out_url, api_url, api_key):
     url = api_url + '/media/enhance'
 
@@ -137,7 +140,6 @@ def noise(dolby_in_url, dolby_out_url, api_url, api_key):
 
 
 def download(dolby_out_url, api_url, api_key, new_file_name):
-
     url = api_url + '/media/output' + '?url=' + dolby_out_url
     headers = {
         'x-api-key': api_key,
@@ -154,20 +156,23 @@ def download(dolby_out_url, api_url, api_key, new_file_name):
 
 # This is the function which includes every step
 def dlby_API(local_path, dolby_in_url, dolby_out_url, new_file_name):
-    #upload
-    api_key = 'b6tGyxR4AuO0CWefbrMyBwJ0fBBcYS81'
+    # upload
+    api_key = 'FTKsw2G8PMJxsCIQCFe0Go7MDkQuHjL3'
     upload_url = get_upload_url(local_path, dolby_in_url, api_url, api_key)
     upload_file(local_path, upload_url)
     print("You can now use {} as your input for Media APIs.".format(dolby_in_url))
-    #enhance
+    # enhance
     noise(dolby_in_url, dolby_out_url, api_url, api_key)
     print("If successful, you can call /media/output with {} to download and hear the results.".format(dolby_out_url))
-    #download
-    download(dolby_out_url,api_url, api_key, new_file_name)
+    # download
+    download(dolby_out_url, api_url, api_key, new_file_name)
+    out = str(dolby_out_url) + ' ' + str(api_url) + ' ' + str(api_key) + ' ' + str(new_file_name)
+    return out
+
 
 # The api_key from your account, local_path to your file, a dolby_url of your choosing
 '''
-local_path = '../../speech.wav'
+local_path = 'speech.wav'
 dolby_in_url = 'dlb://input.wav'
 dolby_out_url = 'dlb://output.wav'
 new_file_name = 'new_speech.wav'

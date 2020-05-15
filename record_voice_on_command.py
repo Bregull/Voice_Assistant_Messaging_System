@@ -4,7 +4,14 @@ import speech_recognition as sr
 from dlby_io_API import dlby_API
 from datetime import datetime
 import os, errno
+#from multiChatClient import send
 
+
+r = sr.Recognizer()
+mic = sr.Microphone()
+web_name = ''
+
+'''
 def speak(text):
     tts = gTTS(text=text, lang='en')
     file_name = 'recording.mp3'
@@ -14,9 +21,11 @@ def speak(text):
 
 def record(r, source, name):
     r.adjust_for_ambient_noise(source, duration=0.2)
+    print('recording')
     audio = r.listen(source)
     with open('./recorded/' + name, 'wb') as f:
         f.write(audio.get_wav_data())
+    print('done recording')
 
 
 def to_text(r):
@@ -29,7 +38,8 @@ def to_text(r):
         f.write(text)
         f.close()
 
-def activate(phrase = 'welcome'):
+
+def activate(phrase='welcome'):
     try:
         with mic as source:
             audio = r.listen(source, phrase_time_limit=2)
@@ -50,19 +60,23 @@ def get_audio():
                 print("HI")
                 playsound.playsound('listening.mp3')
                 record(r, source, name)
-                dlby_API('./recorded/' + name, 'dlb://input/' + name, 'dlb://output/' + name, './enhanced/enhanced_' +  name)
+                out = dlby_API('./recorded/' + name, 'dlb://input/' + name, 'dlb://output/' + name,
+                         './enhanced/enhanced_' + name)
                 print('stoped')
                 # to_text(r)
+                return out
         except Exception as e:
             print(e)
     else:
-        pass
+        return 'none'
+
 
 def names():
     now = datetime.now()
     now_string = now.strftime("%d_%m_%Y_%H_%M_%S")
     filename = web_name + '_' + now_string + '.wav'
     return filename
+'''
 
 def create_directory():
     try:
@@ -76,7 +90,8 @@ def create_directory():
         if e.errno != errno.EEXIST:
             raise
 
-def personal_ID():
+
+def personal_ID(name = ''):
     filename = 'ID.txt'
     if os.path.exists(filename):
         file = open(filename, 'r')
@@ -84,25 +99,37 @@ def personal_ID():
         return name
     else:
         file = open(filename, 'w')
-        name = input('Your name: ')
+        if name == '':
+            name = input('Your name: ')
         file.write(name)
         file.close()
         return name
 
 
+def run_assistant(name):
+    web_name = personal_ID(name)
+    create_directory()
+    return web_name
 
+    '''
+    r.pause_threshold = 1.5
+    with mic as source:
+        r.adjust_for_ambient_noise(source)
+    while True:
+        print('waiting')
+        out = get_audio()
+        return out
 
-web_name = personal_ID()
-r = sr.Recognizer()
-mic = sr.Microphone()
-create_directory()
-r.pause_threshold = 1.5
-with mic as source:
-    r.adjust_for_ambient_noise(source)
-while True:
-    print('waiting')
-    get_audio()
+    #return -1
 
-
-
-
+def run_assistant(name):
+    web_name = personal_ID(name)
+    create_directory()
+    r.pause_threshold = 1.5
+    with mic as source:
+        r.adjust_for_ambient_noise(source)
+    while True:
+        print('waiting')
+        get_audio()
+    return -1
+'''
