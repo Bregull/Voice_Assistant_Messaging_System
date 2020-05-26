@@ -9,6 +9,9 @@ from datetime import datetime
 import prepare_os_files
 from dlby_io_API import download as dolby_download
 
+### OBUDUJ W KLASE NA DOLE, CZY TEŻ W FUNKCJE! ###
+
+
 '''
 Globals
 '''
