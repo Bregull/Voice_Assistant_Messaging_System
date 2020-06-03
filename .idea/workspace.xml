@@ -57,7 +57,7 @@
       <recent name="C:\Users\GÓŁA\Documents\GitHub\Voice_Assistant_Messaging_System\Web_Backend\Flask_current\application\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.notification_mac">
+  <component name="RunManager" selected="Python.client">
     <configuration name="ToasterBox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Voice_Assistant_Messaging_System" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -398,6 +398,8 @@
       <workItem from="1589959276375" duration="1992000" />
       <workItem from="1590519607753" duration="190000" />
       <workItem from="1590935272241" duration="11476000" />
+      <workItem from="1591168059195" duration="5514000" />
+      <workItem from="1591177101953" duration="3166000" />
     </task>
     <task id="LOCAL-00001" summary="dlby.io API is working">
       <created>1588415595798</created>
@@ -444,6 +446,10 @@
     <state x="416" y="155" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1590946890619" />
     <state x="-1296" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589531580372" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1589290313535" />
+    <state x="496" y="27" key="#notification_mac" timestamp="1591168232309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="496" y="27" key="#notification_mac/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1591168232309" />
     <state x="163" y="0" key="CommitChangelistDialog2" timestamp="1589439981677">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -455,38 +461,38 @@
     <state x="493" y="218" key="FileChooserDialogImpl/0.0.1280.800@0.0.1280.800" timestamp="1586332428232" />
     <state x="-1180" y="283" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589531983734" />
     <state x="592" y="225" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589293227650" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1590956209055">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom" timestamp="1591180279662">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.0.1920.1200@0.0.1280.800" timestamp="1589440318861" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1590956209055" />
     <state width="1877" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589541626325" />
-    <state width="746" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589301029249" />
-    <state width="1493" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590519798458" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1590956209053">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1591168248353" />
+    <state width="1493" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591180279662" />
+    <state width="1493" height="158" key="GridCell.Tab.0.center" timestamp="1591180279661">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800/1280.0.1920.1200@0.0.1280.800" timestamp="1589440318860" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1590956209053" />
     <state width="1877" height="162" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589541626325" />
-    <state width="746" height="281" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589301029249" />
-    <state width="1493" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590519798458" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1590956209052">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1493" height="158" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1591168248353" />
+    <state width="1493" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591180279661" />
+    <state width="1493" height="158" key="GridCell.Tab.0.left" timestamp="1591180279661">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800/1280.0.1920.1200@0.0.1280.800" timestamp="1589440318859" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1590956209052" />
     <state width="1877" height="162" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589541626325" />
-    <state width="746" height="281" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589301029249" />
-    <state width="1493" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590519798458" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1590956209054">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1493" height="158" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1591168248353" />
+    <state width="1493" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591180279661" />
+    <state width="1493" height="158" key="GridCell.Tab.0.right" timestamp="1591180279662">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800/1280.0.1920.1200@0.0.1280.800" timestamp="1589440318861" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1590956209054" />
     <state width="1877" height="162" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589541626325" />
-    <state width="746" height="281" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589301029249" />
-    <state width="1493" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590519798458" />
+    <state width="1493" height="158" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1591168248353" />
+    <state width="1493" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591180279662" />
     <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1590951180356">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -510,12 +516,12 @@
     <state x="-1459" y="162" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589531209319" />
     <state x="313" y="80" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1588417743951" />
     <state x="313" y="80" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588662621028" />
-    <state x="525" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1590519609379">
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1591177106683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1264" y="344" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589536877549" />
-    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589301087385" />
-    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590519609379" />
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1591168059496" />
+    <state x="525" y="273" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591177106683" />
     <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589397546165">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -527,22 +533,22 @@
     <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1585842666123" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$base_notification.coverage" NAME="base_notification Coverage Results" MODIFIED="1590939886541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1590937203050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$client.coverage" NAME="client Coverage Results" MODIFIED="1590519629332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$client.coverage" NAME="client Coverage Results" MODIFIED="1591180160537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$main.coverage" NAME="main Coverage Results" MODIFIED="1589301091734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web_Backend/Flask_current" />
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$notification_mac.coverage" NAME="notification_mac Coverage Results" MODIFIED="1590956209040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$dlby_io_API.coverage" NAME="dlby_io_API Coverage Results" MODIFIED="1588662184359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$server.coverage" NAME="server Coverage Results" MODIFIED="1590519616013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$adapters.coverage" NAME="adapters Coverage Results" MODIFIED="1588143200112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$dlby_API.coverage" NAME="enhance_API Coverage Results" MODIFIED="1588415346224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$notification.coverage" NAME="notification Coverage Results" MODIFIED="1590937478096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$multiChatClient.coverage" NAME="multiChatClient Coverage Results" MODIFIED="1589543886411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$adapters.coverage" NAME="adapters Coverage Results" MODIFIED="1588143200112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$upload_API.coverage" NAME="upload_API Coverage Results" MODIFIED="1588415068478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$record_voice_on_command__1_.coverage" NAME="record_voice_on_command (1) Coverage Results" MODIFIED="1589409165285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$cURL.coverage" NAME="download_API Coverage Results" MODIFIED="1588415669840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$record_voice_on_command.coverage" NAME="record_voice_on_command Coverage Results" MODIFIED="1589531582168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$multiChatServer.coverage" NAME="multiChatServer Coverage Results" MODIFIED="1589543882365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$dlby_API.coverage" NAME="enhance_API Coverage Results" MODIFIED="1588415346224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$cURL.coverage" NAME="download_API Coverage Results" MODIFIED="1588415669840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1590937203050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$notification_mac.coverage" NAME="notification_mac Coverage Results" MODIFIED="1590956209040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$notification.coverage" NAME="notification Coverage Results" MODIFIED="1590937478096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$record_voice_on_command__1_.coverage" NAME="record_voice_on_command (1) Coverage Results" MODIFIED="1589409165285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1590937192852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$dlby_io_API.coverage" NAME="dlby_io_API Coverage Results" MODIFIED="1588662184359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$server.coverage" NAME="server Coverage Results" MODIFIED="1591179991633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$base_notification.coverage" NAME="base_notification Coverage Results" MODIFIED="1590939886541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$multiChatServer.coverage" NAME="multiChatServer Coverage Results" MODIFIED="1589543882365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
