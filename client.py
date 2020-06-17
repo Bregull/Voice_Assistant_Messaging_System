@@ -8,6 +8,8 @@ from dlby_io_API import dlby_API
 from datetime import datetime
 import prepare_os_files
 from dlby_io_API import download as dolby_download
+import platform
+import notification_win
 
 ### OBUDUJ W KLASE NA DOLE, CZY TEŻ W FUNKCJE! ###
 
@@ -108,6 +110,9 @@ def receive():
             msg_list.insert(tkinter.END, msg)
             if 'dlb://' in msg:
                 dolby_download(this_message_list[1], this_message_list[2], this_message_list[3], this_message_list[4])
+                if platform.system() == 'Windows':
+                    notification_win.windows_notification(this_message_list[0], this_message_list[4])
+
 
 
         except OSError:  # Possibly client has left the chat.
