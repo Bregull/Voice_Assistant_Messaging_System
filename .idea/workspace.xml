@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27d07012-821e-478c-80d2-deb0f2e7681a" name="Default Changelist" comment="Automatic recording and enhancing">
-      <change afterPath="$PROJECT_DIR$/enhanced/enhanced_Jacek_18_05_2020_00_08_09.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enhanced/enhanced_Jacek_20_05_2020_09_50_42.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enhanced/enhanced_Jacek_20_05_2020_10_00_59.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enhanced/enhanced_Jacek_31_05_2020_17_00_38.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification_mac.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification_win.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recorded/Jacek_20_05_2020_09_50_42.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recorded/Jacek_20_05_2020_10_00_59.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recorded/Jacek_31_05_2020_17_00_38.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Voice_Assistant_Messaging_System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Voice_Assistant_Messaging_System.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Probka_04.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ID.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ID.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +46,7 @@
       <recent name="C:\Users\GÓŁA\Documents\GitHub\Voice_Assistant_Messaging_System\Web_Backend\Flask_current\application\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.notification_mac">
+  <component name="RunManager" selected="Python.dlby_io_API">
     <configuration name="ToasterBox" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Voice_Assistant_Messaging_System" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,28 +113,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="client (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Voice_Assistant_Messaging_System" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="client" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Voice_Assistant_Messaging_System" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,6 +137,28 @@
         </ENTRIES>
       </EXTENSION>
       <option name="SCRIPT_NAME" value="C:\Users\GÓŁA\Documents\GitHub\Voice_Assistant_Messaging_System\client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dlby_io_API" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Voice_Assistant_Messaging_System" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dlby_io_API.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,19 +312,19 @@
       <item itemvalue="Python.server" />
       <item itemvalue="Python.client" />
       <item itemvalue="Python.prepare_os_files" />
-      <item itemvalue="Python.client (1)" />
       <item itemvalue="Python.notification_win" />
       <item itemvalue="Python.ToasterBox" />
       <item itemvalue="Python.notification_mac" />
       <item itemvalue="Python.base_notification" />
+      <item itemvalue="Python.dlby_io_API" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dlby_io_API" />
         <item itemvalue="Python.notification_mac" />
         <item itemvalue="Python.base_notification" />
         <item itemvalue="Python.ToasterBox" />
         <item itemvalue="Python.notification_win" />
-        <item itemvalue="Python.client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +386,9 @@
       <workItem from="1589903489527" duration="416000" />
       <workItem from="1589959276375" duration="1992000" />
       <workItem from="1590519607753" duration="190000" />
-      <workItem from="1590935272241" duration="11476000" />
+      <workItem from="1590935272241" duration="12060000" />
+      <workItem from="1591376984547" duration="131000" />
+      <workItem from="1591380973489" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="dlby.io API is working">
       <created>1588415595798</created>
@@ -455,54 +446,54 @@
     <state x="493" y="218" key="FileChooserDialogImpl/0.0.1280.800@0.0.1280.800" timestamp="1586332428232" />
     <state x="-1180" y="283" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589531983734" />
     <state x="592" y="225" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589293227650" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1590956209055">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1591377115259">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.0.1920.1200@0.0.1280.800" timestamp="1589440318861" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1590956209055" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1591377115259" />
     <state width="1877" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589541626325" />
     <state width="746" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589301029249" />
     <state width="1493" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590519798458" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1590956209053">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1591377115258">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800/1280.0.1920.1200@0.0.1280.800" timestamp="1589440318860" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1590956209053" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1591377115258" />
     <state width="1877" height="162" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589541626325" />
     <state width="746" height="281" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589301029249" />
     <state width="1493" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590519798458" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1590956209052">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1591377115257">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800/1280.0.1920.1200@0.0.1280.800" timestamp="1589440318859" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1590956209052" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1591377115257" />
     <state width="1877" height="162" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589541626325" />
     <state width="746" height="281" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589301029249" />
     <state width="1493" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590519798458" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1590956209054">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1591377115259">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800/1280.0.1920.1200@0.0.1280.800" timestamp="1589440318861" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1590956209054" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1591377115259" />
     <state width="1877" height="162" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1589541626325" />
     <state width="746" height="281" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1589301029249" />
     <state width="1493" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590519798458" />
-    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1590951180356">
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1590957277882">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1590951180356" />
-    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1590951180354">
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1590957277882" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1590957277881">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1590951180354" />
-    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1590951180353">
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1590957277881" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1590957277880">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1590951180353" />
-    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1590951180355">
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1590957277880" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1590957277882">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1590951180355" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1590957277882" />
     <state x="91" y="78" key="SettingsEditor" timestamp="1590955371876">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -531,8 +522,8 @@
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$client__1_.coverage" NAME="client (1) Coverage Results" MODIFIED="1590937203050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$client.coverage" NAME="client Coverage Results" MODIFIED="1590519629332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$main.coverage" NAME="main Coverage Results" MODIFIED="1589301091734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Web_Backend/Flask_current" />
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$notification_mac.coverage" NAME="notification_mac Coverage Results" MODIFIED="1590956209040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$dlby_io_API.coverage" NAME="dlby_io_API Coverage Results" MODIFIED="1588662184359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$notification_mac.coverage" NAME="notification_mac Coverage Results" MODIFIED="1590956712897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$dlby_io_API.coverage" NAME="dlby_io_API Coverage Results" MODIFIED="1591377086196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$server.coverage" NAME="server Coverage Results" MODIFIED="1590519616013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$adapters.coverage" NAME="adapters Coverage Results" MODIFIED="1588143200112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Voice_Assistant_Messaging_System$dlby_API.coverage" NAME="enhance_API Coverage Results" MODIFIED="1588415346224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
